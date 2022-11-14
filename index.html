@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Sneaker Collection </title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <h1>Sneaker Collection</h1>
+    </div>
+
+    <div id="character-bar">
+      <!-- show characters names here -->
+    </div>
+
+    <div class="characterInfo">
+      <div id="detailed-info">
+        <p id="name">Character's Name</p>
+        <img
+          id="image"
+          src="assets/dummy.gif"
+          alt="Character's Name"
+        /><!-- display character image here -->
+        <h4>Total Votes: <span id="vote-count">Character's Votes</span></h4>
+        <form id="votes-form">
+          <input type="text" placeholder="Enter Votes" id="votes" name="votes" />
+          <input type="submit" value="Add Votes" />
+        </form>
+        <button id="reset-btn">Reset Votes</button>
+      </div>
+
+      <!-- Bonus only! Uncomment the elements below when you are ready to work on the bonus deliverables -->
+      <!-- 
+        <h4>Add New Character</h4>
+        <form id="character-form">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            <label for="image-url">Image URL</label>
+            <input type="text" id="image-url" name="image-url" />
+          </div>
+          <input type="submit" value="Add Character" />
+        </form> 
+      -->
+    </div>
+    <script defer src="src/index.js"></script>
+  </body>
+</html>
