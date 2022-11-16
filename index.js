@@ -1,5 +1,3 @@
-const { patch } = require("request")
-
 
 const list = document.querySelector("#sneaker-list")
 const currentRating = document.querySelector('#rating-display')
@@ -18,61 +16,68 @@ sneakers.forEach(sneaker=>{
     photo.src = sneaker.image
     list.append(photo)
     photo.addEventListener('click', (e)=>{
-    currentRating.textContent = sneaker.rating
-    currentName.textContent = sneaker.name
-    currentDescription.textContent = sneaker.description
-    currentBrand.textContent = sneaker.brand
-    currentPrice.textContent = sneaker.price
+        currentRating.textContent = sneaker.rating
+        currentName.textContent = sneaker.name
+        currentDescription.textContent = sneaker.description
+        currentBrand.textContent = sneaker.brand
+        currentPrice.textContent = sneaker.price
+        })
     })
-})
-
 }
 
-function createNewSneaker(){
-    const newName = document.querySelector('#new-sneaker')
-    newName.addEventListener('submit', (e)=>{
-        e.preventDefault()
-        fetch(`http://localhost:3000/Sneaker/${sneaker.id}`,{
-            method: "PATCH",
-            headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json",
-            },
-            body:JSON.stringify({
-                :newName ,
+// initialize variables that we will define in the newName event listener so that we can later pass them into the POST request
+let sneakerNameInput
+let brandInput
+let imageInput
+let ratingInput
+let priceInput
+let descriptionInput
+let newSneakerSubmit = {}
 
-            }),
+// when submit button is clicked, rename variables with the value in the form
+const newName = document.querySelector('#new-sneaker')
+newName.addEventListener('submit', (e) => {
+    e.preventDefault()
+    sneakerNameInput = e.target[0].value
+    brandInput = e.target[1].value
+    imageInput = e.target[2].value
+    ratingInput = e.target[3].value
+    priceInput = e.target[4].value
+    descriptionInput = e.target[5].value
 
-
-            
-            
-            
-            
-
-        })
-       
-
-        let sneakerNameInput = e.target[0].value
-        let brandInput = e.target[1].value
-        let imageInput = e.target[2].value
-        let ratingInput = e.target[3].value
-        let priceInput = e.target[4].value
-        let descriptionInput = e.target[5].value
-       
-        
-        let newSneakerSubmit = {
+    newSneakerSubmit = {
+        name: sneakerNameInput,
+        brand: brandInput,
+        image: imageInput,
+        rating: ratingInput,
+        price: priceInput,
+        description: descriptionInput
+    }  
+    // console.log(newSneakerSubmit)  
+    
+    fetch(`http://localhost:3000/Sneaker/`,{
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+        },
+        body: JSON.stringify({
             name: sneakerNameInput,
             brand: brandInput,
             image: imageInput,
             rating: ratingInput,
             price: priceInput,
-            description: descriptionInput,
-              
-        }
-        renderSneakers([newSneakerSubmit])
-        console.log(newSneakerSubmit)
+            description: descriptionInput
+        })
     })
-}
-createNewSneaker()
+    .then(resp => resp.json())
+    .then(data => {console.log(data)})
+    // render the new image
+    renderSneakers([newSneakerSubmit])
+})
+    
 
-function 
+
+
+
+

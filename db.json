@@ -1,76 +1,92 @@
 {
-"Sneaker": [
-  {
-    "id": 1,
-    "name": "OVO x Air Jordan 10",
-    "brand": "Air Jordan",
-    "image": "https://godlysoles.com/wp-content/uploads/2021/02/2100000-Solid-Gold-OVO-x-Air-Jordan-10s-2.jpg",
-    "rating": 7,
-    "price": "2,100,000 ",
-    "description": "if you're thinking it your probably right these are not walkable, but hella cool to look! The pair  of solid gold sneakers weighs over 100 pounds according to Drake, and features every little detail that the original does."
-  },
-  {
-    "id": 2,
-    "name": "adidas x Gucci Gazelle",
-    "brand": "Gucci",
-    "image": "https://media.gucci.com/style/HEXFFC7D4_Center_0_0_1200x1200/1650038412/707864_9STU0_5960_001_100_0000_Light-adidas-x-Gucci-womens-Gazelle-sneaker.jpg",
-    "rating": 10,
-    "price": "retail: $850.00 Resale :$950.00 - 1,000+" , 
-    "description": "Gazelle but make it Gucci!  The structure is the orginal gazelle format but with gucci's unique colorways .These would be great for a polo match or a calm boat ride or even a walk in centeral park during the fall "
-  },
-  {
-    "id": 3,
-    "name": "Air Jordan 1 OG High Chicago 1985",
-    "brand": "Air Jordan",
-    "image": "https://sothebys-md.brightspotcdn.com/dims4/default/b02cba2/2147483647/strip/true/crop/3543x3543+0+0/resize/800x800!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2F7e%2Ffa%2F4d5de0e741e6a04f8936f61a62a9%2F972sneakers-cfk7z-t3-02.jpg",
-    "rating": 7,
-    "price":  "Retail: $64.99 - Resale: 53,100",
-    "description": "It's nothing like the classsic jumpman ,Conceptualized by Peter Moore, the Air Jordan 1 High 'Chicago' 1985 shoe changed the way people regarded sneakers forever. This first edition honors the Chicago Bulls team colors in a full-grain leather build complete with sleek Swooshes, Wings branding and a molded collar."
-  },
-  {
-    "id": 4,
-    "name": "MAISON MARGIELA X REEBOK'S TABI INSTAPUMP ANKLE BOOTS",
-    "brand": "Masion Margiela X Reebok's",
-    "image": "https://www.yoox.com/images/items/17/17038948QV_14_r.jpg?impolicy=crop&width=387&height=490",
-    "rating": 8,
-    "price": "Retail $1,750.00 - Resale: $450.00 - $980.00 ",
-    "description": "What are those ! Featuring the French label’s iconic Tabi toe, the sneaker-boot hybrid comes in four colorways: “Black/Yellow,” “Black/Blue,” “Black” and “White.” The upper is constructed out of textile and leather fabric, while the chunky, sculptured sole is made from quality rubber material. Additionally, the ankle-high, slip-on pair comes with two utilitarian pull tabs, an elastic band and a four-inch heel. Rounding out the item is the sportswear brand’s signature Pump system, the Hexalite midsole and Graphlite arch bridge that provides flexibility and lightweight support."
-  },
-  {
-    "id": 5,
-    "name": "A Bathing Ape Bapesta Kanye West College Dropout",
-    "brand": "BAPE",
-    "image": "https://images.timetocop.com/sneakers/a-bathing-ape-bapesta-college-dropout-product.jpg?auto=compress&fm=jpg&ixlib=react-9.5.2&q=50&w=320&h=320&dpr=2",
-    "rating": 6,
-    "price": "Retail $212.00 - Resale: 20,000 - 12,625.518",
-    "description": "“Patent leather BAPEs, Closet like planet of the BAPE”! This limited edition Bapesta is known as the “College Dropout” edition and was inspired by Kanye’s album of the same title. They feature a brown and tan upper with the “Dropout Bear” on the heels and red accents."
-  },
-  {
-    "id": 6 ,
-    "name": "Vans x Supreme Authentic Pro “Supreme Checkered Red” low-top sneakers",
-    "brand": "Van X Supreme",
-    "image": "https://cdn-images.farfetch-contents.com/15/75/20/67/15752067_28643920_1000.jpg",
-    "rating": 6,
-    "price": "Retail $N/A - Resale: 2,000",
-    "description": "Got my Vans on cuz they look like sneakers! Red/white cotton x Supreme Authentic Pro “Supreme Checkered Red” low-top sneakers from VANS featuring all-over logo print, checkerboard print, raised logo detail, round toe, front lace-up fastening, rubber sole and Waffle outsole."
-  },
-  {
-    "id": 7 ,
-    "name": "Olivia Kim x Wmns Air Jordan 4 Retro 'No Cover'",
-    "brand": "Oliva Kim X Air Jordan",
-    "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/079/484/879/original/553365_01.jpg.jpeg?action=crop&width=850",
-    "rating": 6,
-    "price": "Retail $N/A - Resale: 2,000",
-    "description": "Black cat, nine lives! Kim has taken the classic 'Black Cat' edition of the silhouette and put her own spin on the all-black design. Pony hair covers the vast majority of the upper, giving the design an aesthetic that nods to its source of inspiration even better than that of the OG."
-  },
-  {
-    "id": 8 ,
-    "name": "Omega Sports Apple Computer Sneakers",
-    "brand": "0mega Sports",
-    "image": "https://dam.sothebys.com/dam/image/Item/3565e524-858c-4c57-8891-145052689b83/primary/medium",
-    "price": "Retail $0 (Prototype) - Resale: 50,000",
-    "description": "Stay hungry. Stay foolish. believe to be  a pair of prototype sneakers made for Apple in the late 1980s or early ’90s,” says Hertiage Auction’s Director of Modern and Contemporary Art Leon Benrimon. “We believe there were only two pairs made, and the other pair was from the Apple archives. The pair we have are what we believe is the only known private pair."
-  }
-  
-]
+  "Sneaker": [
+    {
+      "id": 1,
+      "name": "OVO x Air Jordan 10",
+      "brand": "Air Jordan",
+      "image": "https://godlysoles.com/wp-content/uploads/2021/02/2100000-Solid-Gold-OVO-x-Air-Jordan-10s-2.jpg",
+      "rating": 7,
+      "price": "2,100,000 ",
+      "description": "if you're thinking it your probably right these are not walkable, but hella cool to look! The pair  of solid gold sneakers weighs over 100 pounds according to Drake, and features every little detail that the original does."
+    },
+    {
+      "id": 2,
+      "name": "adidas x Gucci Gazelle",
+      "brand": "Gucci",
+      "image": "https://media.gucci.com/style/HEXFFC7D4_Center_0_0_1200x1200/1650038412/707864_9STU0_5960_001_100_0000_Light-adidas-x-Gucci-womens-Gazelle-sneaker.jpg",
+      "rating": 10,
+      "price": "retail: $850.00 Resale :$950.00 - 1,000+",
+      "description": "Gazelle but make it Gucci!  The structure is the orginal gazelle format but with gucci's unique colorways .These would be great for a polo match or a calm boat ride or even a walk in centeral park during the fall "
+    },
+    {
+      "id": 3,
+      "name": "Air Jordan 1 OG High Chicago 1985",
+      "brand": "Air Jordan",
+      "image": "https://sothebys-md.brightspotcdn.com/dims4/default/b02cba2/2147483647/strip/true/crop/3543x3543+0+0/resize/800x800!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fmedia-desk%2F7e%2Ffa%2F4d5de0e741e6a04f8936f61a62a9%2F972sneakers-cfk7z-t3-02.jpg",
+      "rating": 7,
+      "price": "Retail: $64.99 - Resale: 53,100",
+      "description": "It's nothing like the classsic jumpman ,Conceptualized by Peter Moore, the Air Jordan 1 High 'Chicago' 1985 shoe changed the way people regarded sneakers forever. This first edition honors the Chicago Bulls team colors in a full-grain leather build complete with sleek Swooshes, Wings branding and a molded collar."
+    },
+    {
+      "id": 4,
+      "name": "MAISON MARGIELA X REEBOK'S TABI INSTAPUMP ANKLE BOOTS",
+      "brand": "Masion Margiela X Reebok's",
+      "image": "https://www.yoox.com/images/items/17/17038948QV_14_r.jpg?impolicy=crop&width=387&height=490",
+      "rating": 8,
+      "price": "Retail $1,750.00 - Resale: $450.00 - $980.00 ",
+      "description": "What are those ! Featuring the French label’s iconic Tabi toe, the sneaker-boot hybrid comes in four colorways: “Black/Yellow,” “Black/Blue,” “Black” and “White.” The upper is constructed out of textile and leather fabric, while the chunky, sculptured sole is made from quality rubber material. Additionally, the ankle-high, slip-on pair comes with two utilitarian pull tabs, an elastic band and a four-inch heel. Rounding out the item is the sportswear brand’s signature Pump system, the Hexalite midsole and Graphlite arch bridge that provides flexibility and lightweight support."
+    },
+    {
+      "id": 5,
+      "name": "A Bathing Ape Bapesta Kanye West College Dropout",
+      "brand": "BAPE",
+      "image": "https://images.timetocop.com/sneakers/a-bathing-ape-bapesta-college-dropout-product.jpg?auto=compress&fm=jpg&ixlib=react-9.5.2&q=50&w=320&h=320&dpr=2",
+      "rating": 6,
+      "price": "Retail $212.00 - Resale: 20,000 - 12,625.518",
+      "description": "“Patent leather BAPEs, Closet like planet of the BAPE”! This limited edition Bapesta is known as the “College Dropout” edition and was inspired by Kanye’s album of the same title. They feature a brown and tan upper with the “Dropout Bear” on the heels and red accents."
+    },
+    {
+      "id": 6,
+      "name": "Vans x Supreme Authentic Pro “Supreme Checkered Red” low-top sneakers",
+      "brand": "Van X Supreme",
+      "image": "https://cdn-images.farfetch-contents.com/15/75/20/67/15752067_28643920_1000.jpg",
+      "rating": 6,
+      "price": "Retail $N/A - Resale: 2,000",
+      "description": "Got my Vans on cuz they look like sneakers! Red/white cotton x Supreme Authentic Pro “Supreme Checkered Red” low-top sneakers from VANS featuring all-over logo print, checkerboard print, raised logo detail, round toe, front lace-up fastening, rubber sole and Waffle outsole."
+    },
+    {
+      "id": 7,
+      "name": "Olivia Kim x Wmns Air Jordan 4 Retro 'No Cover'",
+      "brand": "Oliva Kim X Air Jordan",
+      "image": "https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/079/484/879/original/553365_01.jpg.jpeg?action=crop&width=850",
+      "rating": 6,
+      "price": "Retail $N/A - Resale: 2,000",
+      "description": "Black cat, nine lives! Kim has taken the classic 'Black Cat' edition of the silhouette and put her own spin on the all-black design. Pony hair covers the vast majority of the upper, giving the design an aesthetic that nods to its source of inspiration even better than that of the OG."
+    },
+    {
+      "id": 8,
+      "name": "Omega Sports Apple Computer Sneakers",
+      "brand": "0mega Sports",
+      "image": "https://dam.sothebys.com/dam/image/Item/3565e524-858c-4c57-8891-145052689b83/primary/medium",
+      "price": "Retail $0 (Prototype) - Resale: 50,000",
+      "description": "Stay hungry. Stay foolish. believe to be  a pair of prototype sneakers made for Apple in the late 1980s or early ’90s,” says Hertiage Auction’s Director of Modern and Contemporary Art Leon Benrimon. “We believe there were only two pairs made, and the other pair was from the Apple archives. The pair we have are what we believe is the only known private pair."
+    },
+    {
+      "id": 9,
+      "name": "Cactus Plant Flea Market x Nike Dunk Low ‘Pure Platinum",
+      "brand": "Nike",
+      "image": "https://media.blackandwhite-ff.com/10000/abc65e20-0dca-4263-b755-fc2a97b8db87_03-cactusdunklow.jpg",
+      "price": "Retail $500 (Prototype) - Resale: 3,000.00-4,975.00",
+      "description": "Bling bling The sneaker is fully covered in Swarovski crystals, popping out from the shoe’s white leather uppers. Besides its laces and midsole, the entire shoe is gleaming, subtly demarcated by familiar panels like the Swoosh, heel counter and toecap, while mesh padding at the tongue and collars line its interiors. The shoe also comes with a sparkly double-vision Smiley tag to complete the vibrant collaboration."
+    },
+    {
+      "id": 11,
+      "name": "Kanye West x Louis Vuitton Jasper,",
+      "brand": "Louis Vuttion",
+      "image": "https://cdn.flightclub.com/TEMPLATE/991250/1.jpg",
+      "price": "Retail 1,140.00 (Prototype) - Resale: 8,509.00 -39,580.00",
+      "description": "Cause it's Louis Vuitton Don night / So we gon' do everything that Kan like.Kanye West’s signature Jasper sneaker, made in collaboration with Louis Vuitton, is named after West's acclaimed longtime barber Ibn Jasper, who is known to have an impressive sneaker collection. The upper of the shoe is constructed of patchwork leathers in varying shades of grey, and is contrasted by the bright pink rubber of the shoe's midsole."
+    }
+    
+  ]
 }
