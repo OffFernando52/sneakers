@@ -1,22 +1,12 @@
-// fetch('http://localhost:3000/Sneaker')
-// .then(resp => resp.json())
-// .then(data => renderSneaker(data))
+const { patch } = require("request")
 
-// const detailImg = document.querySelector(".detail-image")
-// function renderSneaker(sneakers){
-
-    
-    
-//      detailImg.src = sneakers[0].image
-     
-//  }
-
-//img.src = 'https://godlysoles.com/wp-content/uploads/2021/02/2100000-Solid-Gold-OVO-x-Air-Jordan-10s-2.jpg'
 
 const list = document.querySelector("#sneaker-list")
 const currentRating = document.querySelector('#rating-display')
 const currentName = document.querySelector('#sneaker-name')
-
+const currentDescription = document.querySelector('#description-display')
+const currentBrand = document.querySelector('#brand-name')
+const currentPrice = document.querySelector('#sneaker-price')
 
 fetch('http://localhost:3000/Sneaker')
 .then(res => res.json())
@@ -30,7 +20,59 @@ sneakers.forEach(sneaker=>{
     photo.addEventListener('click', (e)=>{
     currentRating.textContent = sneaker.rating
     currentName.textContent = sneaker.name
+    currentDescription.textContent = sneaker.description
+    currentBrand.textContent = sneaker.brand
+    currentPrice.textContent = sneaker.price
     })
 })
 
 }
+
+function createNewSneaker(){
+    const newName = document.querySelector('#new-sneaker')
+    newName.addEventListener('submit', (e)=>{
+        e.preventDefault()
+        fetch(`http://localhost:3000/Sneaker/${sneaker.id}`,{
+            method: "PATCH",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json",
+            },
+            body:JSON.stringify({
+                :newName ,
+
+            }),
+
+
+            
+            
+            
+            
+
+        })
+       
+
+        let sneakerNameInput = e.target[0].value
+        let brandInput = e.target[1].value
+        let imageInput = e.target[2].value
+        let ratingInput = e.target[3].value
+        let priceInput = e.target[4].value
+        let descriptionInput = e.target[5].value
+       
+        
+        let newSneakerSubmit = {
+            name: sneakerNameInput,
+            brand: brandInput,
+            image: imageInput,
+            rating: ratingInput,
+            price: priceInput,
+            description: descriptionInput,
+              
+        }
+        renderSneakers([newSneakerSubmit])
+        console.log(newSneakerSubmit)
+    })
+}
+createNewSneaker()
+
+function 
