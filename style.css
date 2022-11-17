@@ -14,7 +14,7 @@
     }
     body {
       text-align: center;
-      background-color: rgb(255, 255, 255);
+      background-color: rgb(2, 1, 1);
       }
     body:before {
       content: '';
@@ -26,10 +26,10 @@
   
   h1 {
     display: inline-block;
-    color: rgb(40, 21, 42);
+    color: rgba(53, 27, 24, 0.821);
     font-family: 'Righteous', serif;
     font-size: 12em; 
-    text-shadow: .03em .03em 0 rgb(8, 9, 10);
+    text-shadow: .03em .03em 0 rgb(64, 31, 31);
     }
     h1:after {
       content: attr(data-shadow);
@@ -41,8 +41,8 @@
         linear-gradient(
           45deg,
           transparent 45%,
-          rgb(230, 28, 28) 45%,
-          rgb(233, 18, 18) 55%,
+          rgb(34, 24, 24) 45%,
+          rgb(93, 91, 94) 55%,
           transparent 0
           );
       background-size: .05em .05em;
@@ -62,17 +62,17 @@
         font-family: Arial, Helvetica, sans-serif;
         box-sizing: border-box;
       }
-      
       body {
-        padding: 1rem;
-        text-align: center;
-        background-color: #110e0e;
-       
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        height: 100vh;
+        background: repeating-linear-gradient(
+          to right,
+          #894f436a 0px,
+          #0e0808 20px,
+          #965a5ac2 20px,
+          #fafafa 40px
+        );
       }
+     
       
       /*header {
         padding: 0.5rem;
@@ -112,7 +112,7 @@
         position: absolute;
         left: 242px;
         padding: 0.25rem 5rem 0.25rem 1rem;
-        background-color: rgba(240, 233, 233, 0.8);
+        background-color: rgba(232, 232, 234, 0.835);
       }
       
       .name {

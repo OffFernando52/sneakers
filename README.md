@@ -1,5 +1,2 @@
 # sneakers
-yetunde was here 
-test!
-test 2
-9
+https://github.com/OffFernando52/sneakers
