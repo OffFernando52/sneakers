@@ -1,4 +1,5 @@
 
+
 const list = document.querySelector("#sneaker-list")
 const currentRating = document.querySelector('#rating-display')
 const currentName = document.querySelector('#sneaker-name')
@@ -6,15 +7,17 @@ const currentDescription = document.querySelector('#description-display')
 const currentBrand = document.querySelector('#brand-name')
 const currentPrice = document.querySelector('#sneaker-price')
 
+document.addEventListener("DOMContentLoaded", () => {
 fetch('http://localhost:3000/Sneaker')
 .then(res => res.json())
 .then(data => renderSneakers(data))
-
+})
+const photo = document.getElementsByTagName('img')
 function renderSneakers(sneakers){
 sneakers.forEach(sneaker=>{
     const photo = document.createElement('img')
     photo.src = sneaker.image
-    list.append(photo)
+    
     photo.addEventListener('click', (e)=>{
         currentRating.textContent = sneaker.rating
         currentName.textContent = sneaker.name
@@ -22,9 +25,22 @@ sneakers.forEach(sneaker=>{
         currentBrand.textContent = sneaker.brand
         currentPrice.textContent = sneaker.price
         })
+    photo.addEventListener("mouseover", () => makePicBigger(photo));
+    photo.addEventListener("mouseout" , ()=> meakePicSmaller(photo))
+   list.append(photo)
     })
 }
 
+function makePicBigger(sneakerPic){
+//const photo = document.getElementsByTagName('img')
+sneakerPic.style.height="250px"
+
+
+}
+function meakePicSmaller(sneakerPic){
+sneakerPic.style.height="150px"
+}
+//makePicBigger()
 // initialize variables that we will define in the newName event listener so that we can later pass them into the POST request
 let sneakerNameInput
 let brandInput

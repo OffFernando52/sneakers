@@ -26,7 +26,7 @@
   
   h1 {
     display: inline-block;
-    color: rgb(233, 15, 15);
+    color: rgb(208, 15, 233);
     font-family: 'Righteous', serif;
     font-size: 12em; 
     text-shadow: .03em .03em 0 rgb(8, 9, 10);
@@ -66,7 +66,7 @@
       body {
         padding: 1rem;
         text-align: center;
-        background-color: #ffffff;
+        background-color: #110e0e;
        
         display: flex;
         flex-direction: column;
