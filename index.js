@@ -6,7 +6,12 @@ const currentName = document.querySelector('#sneaker-name')
 const currentDescription = document.querySelector('#description-display')
 const currentBrand = document.querySelector('#brand-name')
 const currentPrice = document.querySelector('#sneaker-price')
+const formContainer = document.querySelector("#formContainer")
 
+const submitForm = document.querySelector("#new-name")
+submitForm.classList.add("new-name")
+const newBoxDiv = document.querySelector("#innerFlexBox")
+newBoxDiv.classList.add("gifImgToDom")
 document.addEventListener("DOMContentLoaded", () => {
 fetch('http://localhost:3000/Sneaker')
 .then(res => res.json())

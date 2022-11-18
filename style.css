@@ -14,7 +14,7 @@
     }
     body {
       text-align: center;
-      background-color: rgb(2, 1, 1);
+      background-color: rgb(32, 30, 30);
       }
     body:before {
       content: '';
@@ -26,9 +26,9 @@
   
   h1 {
     display: inline-block;
-    color: rgba(53, 27, 24, 0.821);
+    color: rgba(255, 255, 255, 0.821);
     font-family: 'Righteous', serif;
-    font-size: 12em; 
+    font-size: 10em; 
     text-shadow: .03em .03em 0 rgb(64, 31, 31);
     }
     h1:after {
@@ -137,8 +137,8 @@
        input,
       textarea {
         font-size: 1rem;
-        border: 1px solid rgb(226, 28, 28);
-        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(88, 55, 00);
+        background-color: rgb(88, 35, 35);
         padding: 0.5rem;
         margin: 0.25rem 0;
         width: 100%;
@@ -147,9 +147,9 @@
       } 
       
     input[type="submit"] {
-        color: rgb(250, 17, 17);
-        border: 1px solid rgb(206, 57, 57);
-        background-color: rgb(240, 231, 231);
+        color: rgb(255, 250, 250);
+        border: 1px solid rgb(255, 255, 255);
+        background-color: rgb(88, 35, 35);
         cursor: pointer;
         transition: all 0.3s;
       }
@@ -162,19 +162,24 @@
         width: 100%;
         padding: 0.25rem;
         margin: 0.5rem 0;
-        color: rgb(196, 28, 28);
+        color: rgb(85, 43, 43);
         background-color: rgb(241, 233, 233);
       } 
       
       #formContainer{
-        margin: 0px auto;
-        display: center;
-        width: 300px;
+       
+        /* display: center; */
+       /* width: 300px; */
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        left: 10% ;
         
 
+      }
+      #formContainer>*{
+        padding:2%
       }
       h4 {
         width: 100%;
@@ -182,4 +187,56 @@
         margin: 0.5rem 0;
         color: rgb(196, 28, 28);
         background-color: rgb(241, 233, 233);
+        
       } 
+
+      #outterFlexBox{
+        display:flex;
+        justify-content: space-between;
+        flex-direction: column;
+        /* margin: 5px; */
+      }
+      
+      
+
+      #innerFlexBox{
+        display: block;
+        margin: 10px;
+        /* font-weight: bold */
+      }
+
+      #innerFlexBox2{
+        margin: 10px;
+      }
+      #brand-name{
+        background-color: #fafafa;
+        
+      }
+      #rating{
+        background-color: #fafafa;
+      } 
+      #pRating{
+        background-color: #fafafa; 
+      }
+      #description-display{
+        font-weight: bold;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        width: 400px;
+        height: auto;
+        left: 37%
+      }
+      #new-name{
+        color: #fafafa;
+       
+        
+      }
+      #gifFormFor{
+        position: relative; 
+        left: 50%;
+        width: 300px;
+        height: auto;
+        border: #552929c7;
+        box-shadow: 15px 15px 2px rgba(50,50,50,.3);
+        /* margin-left: 200px; */
+
+      }

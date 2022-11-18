@@ -4,18 +4,18 @@
       "id": 1,
       "name": "OVO x Air Jordan 10",
       "brand": "Air Jordan",
-      "image": "https://godlysoles.com/wp-content/uploads/2021/02/2100000-Solid-Gold-OVO-x-Air-Jordan-10s-2.jpg",
+      "image": "https://godlysoles.com/wp-content/uploads/2021/02/2100000-Solid-Gold-OVO-x-Air-Jordan-10s-3.jpg",
       "rating": 7,
-      "price": "2,100,000 ",
-      "description": "if you're thinking it your probably right these are not walkable, but hella cool to look! The pair  of solid gold sneakers weighs over 100 pounds according to Drake, and features every little detail that the original does."
+      "price": "Retail:2,100,000 ",
+      "description": "If you're thinking it your probably right these are not walkable, but hella cool to look! The pair  of solid gold sneakers weighs over 100 pounds according to Drake, and features every little detail that the original does."
     },
     {
       "id": 2,
       "name": "adidas x Gucci Gazelle",
       "brand": "Gucci",
-      "image": "https://media.gucci.com/style/HEXFFC7D4_Center_0_0_1200x1200/1650038412/707864_9STU0_5960_001_100_0000_Light-adidas-x-Gucci-womens-Gazelle-sneaker.jpg",
+      "image": "https://product-images.therealreal.com/GAUDC20130_1_enlarged.jpg?width=1500",
       "rating": 10,
-      "price": "retail: $850.00 Resale :$950.00 - 1,000+",
+      "price": "Retail: $850.00 - Resale :$950.00 - 1,000+",
       "description": "Gazelle but make it Gucci!  The structure is the orginal gazelle format but with gucci's unique colorways .These would be great for a polo match or a calm boat ride or even a walk in centeral park during the fall "
     },
     {
@@ -49,7 +49,7 @@
       "id": 6,
       "name": "Vans x Supreme Authentic Pro “Supreme Checkered Red” low-top sneakers",
       "brand": "Van X Supreme",
-      "image": "https://cdn-images.farfetch-contents.com/15/75/20/67/15752067_28643920_1000.jpg",
+      "image": "https://cdna.lystit.com/520/650/n/photos/farfetch/a5da496b/vans--X-Supreme-authentic-Pro-Supreme-Checkered-Red.jpeg",
       "rating": 6,
       "price": "Retail $N/A - Resale: 2,000",
       "description": "Got my Vans on cuz they look like sneakers! Red/white cotton x Supreme Authentic Pro “Supreme Checkered Red” low-top sneakers from VANS featuring all-over logo print, checkerboard print, raised logo detail, round toe, front lace-up fastening, rubber sole and Waffle outsole."
@@ -87,6 +87,6 @@
       "price": "Retail 1,140.00 (Prototype) - Resale: 8,509.00 -39,580.00",
       "description": "Cause it's Louis Vuitton Don night / So we gon' do everything that Kan like.Kanye West’s signature Jasper sneaker, made in collaboration with Louis Vuitton, is named after West's acclaimed longtime barber Ibn Jasper, who is known to have an impressive sneaker collection. The upper of the shoe is constructed of patchwork leathers in varying shades of grey, and is contrasted by the bright pink rubber of the shoe's midsole."
     }
-    
+
   ]
 }
