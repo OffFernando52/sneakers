@@ -217,6 +217,7 @@
       } 
       #pRating{
         background-color: #fafafa; 
+        
       }
       #description-display{
         font-weight: bold;
@@ -229,6 +230,21 @@
         color: #fafafa;
        
         
+      }
+      #new-brand{
+        color: #fafafa;
+      }
+      #new-image{
+        color: #fafafa;
+      }
+      #new-price{
+        color: #fafafa;
+      }
+      #new-rating{
+        color: #fafafa;
+      }
+      #new-description{
+        color: #fafafa;
       }
       #gifFormFor{
         position: relative; 
