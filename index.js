@@ -12,6 +12,8 @@ const submitForm = document.querySelector("#new-name")
 submitForm.classList.add("new-name")
 const newBoxDiv = document.querySelector("#innerFlexBox")
 newBoxDiv.classList.add("gifImgToDom")
+
+
 document.addEventListener("DOMContentLoaded", () => {
 fetch('http://localhost:3000/Sneaker')
 .then(res => res.json())
@@ -22,6 +24,13 @@ function renderSneakers(sneakers){
 sneakers.forEach(sneaker=>{
     const photo = document.createElement('img')
     photo.src = sneaker.image
+    
+    btn = document.createElement("button") //create element for the button if needed
+    console.log(btn) // console.log to be sure your button was added after appending 
+    btn.textContent = "x"
+    list.append(btn)
+   
+    
     
     photo.addEventListener('click', (e)=>{
         currentRating.textContent = sneaker.rating
@@ -34,7 +43,16 @@ sneakers.forEach(sneaker=>{
     photo.addEventListener("mouseout" , ()=> meakePicSmaller(photo))
    list.append(photo)
     })
+   
+    
 }
+
+
+
+btn.addEventListener('click', (e) => {
+    //console.log("hi")
+    photo.parentElement.remove()
+})
 
 function makePicBigger(sneakerPic){
 //const photo = document.getElementsByTagName('img')
@@ -65,6 +83,7 @@ newName.addEventListener('submit', (e) => {
     ratingInput = e.target[3].value
     priceInput = e.target[4].value
     descriptionInput = e.target[5].value
+   console.log(window.innerHeight) 
 
     newSneakerSubmit = {
         name: sneakerNameInput,
@@ -95,6 +114,9 @@ newName.addEventListener('submit', (e) => {
     .then(data => {console.log(data)})
     // render the new image
     renderSneakers([newSneakerSubmit])
+
+
+
 })
     
 

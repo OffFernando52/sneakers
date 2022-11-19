@@ -28,7 +28,7 @@
       "description": "It's nothing like the classsic jumpman ,Conceptualized by Peter Moore, the Air Jordan 1 High 'Chicago' 1985 shoe changed the way people regarded sneakers forever. This first edition honors the Chicago Bulls team colors in a full-grain leather build complete with sleek Swooshes, Wings branding and a molded collar."
     },
     {
-      "id":4 ,
+      "id": 4,
       "name": "A Bathing Ape Bapesta Kanye West College Dropout",
       "brand": "BAPE",
       "image": "https://images.timetocop.com/sneakers/a-bathing-ape-bapesta-college-dropout-product.jpg?auto=compress&fm=jpg&ixlib=react-9.5.2&q=50&w=320&h=320&dpr=2",
@@ -54,7 +54,6 @@
       "price": "Retail $N/A - Resale: 2,000",
       "description": "Got my Vans on cuz they look like sneakers! Red/white cotton x Supreme Authentic Pro “Supreme Checkered Red” low-top sneakers from VANS featuring all-over logo print, checkerboard print, raised logo detail, round toe, front lace-up fastening, rubber sole and Waffle outsole."
     },
-  
     {
       "id": 7,
       "name": "MAISON MARGIELA X REEBOK'S TABI INSTAPUMP ANKLE BOOTS",
@@ -82,7 +81,7 @@
       "price": "Retail: $850.00 - Resale :$950.00 - 1,000+",
       "description": "Gazelle but make it Gucci!  The structure is the orginal gazelle format but with gucci's unique colorways .These would be great for a polo match or a calm boat ride or even a walk in centeral park during the fall "
     },
-  {
+    {
       "id": 10,
       "name": "OVO x Air Jordan 10",
       "brand": "Air Jordan",
@@ -90,7 +89,15 @@
       "rating": 2,
       "price": "Retail:2,100,000 ",
       "description": "If you're thinking it your probably right these are not walkable, but hella cool to look! The pair  of solid gold sneakers weighs over 100 pounds according to Drake, and features every little detail that the original does."
+    },
+    {
+      "name": "nike tan boot ",
+      "brand": "Nike",
+      "image": "https://www.kicksonfire.com/wp-content/uploads/2014/10/nike-air-force-1-rt-vachetta-tan-collection-thursday-02-565x372.jpg?x58464",
+      "rating": "retail 550.00",
+      "price": "10",
+      "description": "i love them !!!!",
+      "id": 11
     }
-    
   ]
 }
