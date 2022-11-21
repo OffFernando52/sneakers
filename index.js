@@ -1,5 +1,6 @@
 
 
+
 const list = document.querySelector("#sneaker-list")
 const currentRating = document.querySelector('#rating-display')
 const currentName = document.querySelector('#sneaker-name')
@@ -12,12 +13,17 @@ const submitForm = document.querySelector("#new-name")
 submitForm.classList.add("new-name")
 const newBoxDiv = document.querySelector("#innerFlexBox")
 newBoxDiv.classList.add("gifImgToDom")
-
+btn = document.createElement("button") //create element for the button if needed
+  
 
 document.addEventListener("DOMContentLoaded", () => {
 fetch('http://localhost:3000/Sneaker')
 .then(res => res.json())
-.then(data => renderSneakers(data))
+.then(data => 
+                renderSneakers(data))
+
+                //addButton(sneaker)
+                
 })
 const photo = document.getElementsByTagName('img')
 function renderSneakers(sneakers){
@@ -26,9 +32,21 @@ sneakers.forEach(sneaker=>{
     photo.src = sneaker.image
     
     btn = document.createElement("button") //create element for the button if needed
-    console.log(btn) // console.log to be sure your button was added after appending 
     btn.textContent = "x"
+       
     list.append(btn)
+
+
+    
+    btn.addEventListener('click', (e) => {
+        photo.remove()
+      
+   
+          console.log(e)
+            
+        })
+    
+    
    
     
     
@@ -49,10 +67,8 @@ sneakers.forEach(sneaker=>{
 
 
 
-btn.addEventListener('click', (e) => {
-    //console.log("hi")
-    photo.parentElement.remove()
-})
+
+
 
 function makePicBigger(sneakerPic){
 //const photo = document.getElementsByTagName('img')
@@ -63,6 +79,19 @@ sneakerPic.style.height="250px"
 function meakePicSmaller(sneakerPic){
 sneakerPic.style.height="150px"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 //makePicBigger()
 // initialize variables that we will define in the newName event listener so that we can later pass them into the POST request
 let sneakerNameInput
