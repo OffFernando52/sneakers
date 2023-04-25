@@ -15,3 +15,4 @@ PATCH request
 5.How you are meeting the requirements of the project
 communicating makes the dream work
 meeting everyday (edited) 
+`json-server --watch db.json`
